@@ -12,14 +12,15 @@ require 'faker'
   User.create(name: Faker::Zelda.character)
 end
 
-5.times do
+#Création de 5 liens avec comme url un nom de pokemon random et comme user_id un nombre entre 1 et 10
+15.times do
   Link.create(url: "www.#{Faker::Pokemon.name.downcase}.com", user_id: rand(10))
 end
 
-8.times do
-  Comment.create(content: Faker::Overwatch.quote, link_id: rand(5), user_id: rand(10))
+12.times do
+  Comment.create(content: Faker::Overwatch.quote, link_id: rand(15), user_id: rand(10))
 end
 
-4.times do
-  Reply.create(content: Faker::HarryPotter.spell, user_id: rand(10), comment_id: rand(11))
+8.times do
+  Reply.create(content: Faker::HarryPotter.spell, user_id: rand(10), comment_id: rand(8))
 end

@@ -13,7 +13,7 @@ A été créée une base de données, avec une application rails, en utilisant l
 
 ### Le projet
 
-Un message board à la Hacker News.
+Un message board à la Hacker News
 
 - Les utilisateurs peuvent poster des liens
 - Les autres utilisateurs peuvent commenter les liens soumis
@@ -21,4 +21,4 @@ Un message board à la Hacker News.
 
 ## La team
 
-Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI, Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
