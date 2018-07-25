@@ -1,4 +1,4 @@
-# MOOCAcademy - projet THP 25 juillet 2018
+# The Hacking News - projet THP 25 juillet 2018
 
 ## Après avoir cloné le repo
 
