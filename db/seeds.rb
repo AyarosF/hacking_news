@@ -13,13 +13,8 @@ require 'faker'
 end
 
 5.times do
-  Link.create(url: "www.#{Faker::Pokemon.name.downcase}.com")
+  Link.create(url: "www.#{Faker::Pokemon.name.downcase}.com", user_id: rand(10))
 end
-
-for i in 1..5
-  Link.find(i).update(user_id: rand(10))
-end
-
 
 8.times do
   Comment.create(content: Faker::Overwatch.quote, link_id: rand(5), user_id: rand(10))
